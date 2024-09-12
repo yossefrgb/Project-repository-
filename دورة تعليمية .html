@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AL MASRY ACADEMY - الدورات التعليمية</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            direction: rtl;
+        }
+        header {
+            background-color: #00539C;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease; /* إضافة تأثير الانتقال */
+        }
+        /* تأثير hover لتغيير اللون إلى الأزرق */
+        nav ul li a:hover {
+            color: #007BFF; /* اللون الأزرق عند مرور الفأرة */
+        }
+        .courses-section {
+            padding: 50px;
+            text-align: center;
+        }
+        .courses-section h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .courses-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .course-card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            max-width: 300px;
+            transition: transform 0.3s ease;
+        }
+        .course-card:hover {
+            transform: translateY(-10px);
+        }
+        .course-card h3 {
+            font-size: 1.5em;
+            color: #00539C;
+        }
+        .course-card p {
+            color: #333;
+            font-size: 1em;
+            margin-bottom: 15px;
+        }
+        .course-card span {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .course-card a {
+            background-color: #FF4136;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 10px;
+            transition: background-color 0.3s ease;
+        }
+        .course-card a:hover {
+            background-color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>AL MASRY ACADEMY</h1>
+    <nav>
+        <ul>
+            <li><a href="AL MASRY.HTML">الصفحة الرئيسية</a></li>
+            <li><a href="#">الدورات التعليمية</a></li>
+            <li><a href="#">عن الأكاديمية</a></li>
+            <li><a href="#">فريق العمل</a></li>
+            <li><a href="#">تواصل معنا</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="courses-section">
+    <h2>الدورات التعليمية</h2>
+    <div class="courses-container">
+        <!-- بطاقة الدورة الأولى -->
+        <div class="course-card">
+            <h3>برمجة C# للمبتدئين</h3>
+            <p>تعلم أساسيات البرمجة باستخدام C# بطريقة ممتعة وسهلة.</p>
+            <span>المدة: 4 أسابيع</span>
+            <a href="#">اشترك الآن</a>
+        </div>
+        <!-- بطاقة الدورة الثانية -->
+        <div class="course-card">
+            <h3>تطوير تطبيقات ويب باستخدام HTML وCSS</h3>
+            <p>احترف تطوير الويب واصنع مواقع تفاعلية باستخدام HTML وCSS.</p>
+            <span>المدة: 6 أسابيع</span>
+            <a href="#">اشترك الآن</a>
+        </div>
+        <!-- بطاقة الدورة الثالثة -->
+        <div class="course-card">
+            <h3>أساسيات الذكاء الاصطناعي</h3>
+            <p>مقدمة شاملة إلى تقنيات الذكاء الاصطناعي وتعلم الآلة.</p>
+            <span>المدة: 8 أسابيع</span>
+            <a href="#">اشترك الآن</a>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
